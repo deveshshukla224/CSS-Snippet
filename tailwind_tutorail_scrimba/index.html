@@ -8,16 +8,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./style.css" type="text/css">
 </head>
-<body>
-    
-    <div><button class="bg-blue-400 rounded-lg border-l-8 px-4 py-2 text-lg border-black">Submit</button></div>
-
-    <div><button class="text-red-600 underline m-4 border border-red-700 px-4 py-2">Cancel</button></div>
-
-    <div><button class="text-indigo-800 bg-indigo-300 border-b-8 border-t-8 border-black m-4 px-4 py-2">Save</button></div>
-
-    <div><button class="text-white bg-pink-500 px-16 py-4 m-4 rounded-full uppercase text-2xl">Buy Now</button></div>
-    
+<body class="bg-gray-100">
+    <div class="flex flex-col items-center m">
+        <label for="full_name" class="text-gray-600 font-bold select-none text-md">Full Name</label>
+        <input type="text" id="full_name" placeholder="Enter your full name" class="w-4/6 px-3 py-2  border-2 shadow rounded-md m-4 placeholder-blue-400" style="outline:none;">
+        <button class="bg-blue-400 text-white p-3 rounded-lg">Save</button>
+    </div>
 </body>
 <script src="./app.js"></script>
 </html>
