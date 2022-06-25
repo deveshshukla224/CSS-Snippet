@@ -8,12 +8,36 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./style.css" type="text/css">
 </head>
-<body class="bg-gray-100">
-    <div class="flex flex-col items-center m">
-        <label for="full_name" class="text-gray-600 font-bold select-none text-md">Full Name</label>
-        <input type="text" id="full_name" placeholder="Enter your full name" class="w-4/6 px-3 py-2  border-2 shadow rounded-md m-4 placeholder-blue-400" style="outline:none;">
-        <button class="bg-blue-400 text-white p-3 rounded-lg">Save</button>
+<body class="flex bg-gray-500">
+    <div class="flex flex-col w-2/5 bg-white shadow-lg rounded-lg overflow-hidden">
+    <div><p class="px-3 py-3 bg-gray-200">The title of the card here</p></div>
+    <div class="flex w-full justify-around mt-4 items-center">
+        <div class="bg-orange-400 rounded-lg px-2 py-1 font-bold uppercase text-sm text-white">
+            Under Review
+        </div>
+        <div>
+            May 14 , 1988 
+        </div>
     </div>
+<hr class="mt-4"/>
+<div class="w-3/4 flex justify-center items-center bg-gray-200 px-3 py-4 text-md mt-4 rounded-lg ml-14">
+    <p>Here is a short comment about this employee</p>
+</div>
+<div class="bg-gray-200 p-3 mt-4">
+    <h5 class="uppercase text-md text-gray-500 font-bold ml-12">Employee</h5>
+    <div class="flex items-center mt-4 ">
+        <p class="bg-blue-500 p-4 text-white text-md font-bold ml-12" style="border-radius: 50%;">VG</p>
+        <div class="flex flex-col ml-12">
+            <p class="text-md font-bold text-black">
+             Victor Gonzalez
+            </p>
+            <p class="text-sm text-gray-700">
+                Instructor
+            </p>
+        </div>
+    </div>
+</div>
+</div>
 </body>
 <script src="./app.js"></script>
 </html>
